@@ -60,7 +60,7 @@ def add_markdown_table(doc, lines):
 
 def create_docx(ts_text: str, buffer):
     doc = Document() 
-    doc.add_heading('FUNCTIONAL SPECIFICATION', level=1)
+    doc.add_heading('TECHNICAL SPECIFICATION', level=1)
 
     lines = ts_text.splitlines()
     current_section = ""
